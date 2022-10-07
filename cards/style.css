@@ -1,0 +1,140 @@
+/* ===========ОБНУЛЕНИЕ============ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+ol,
+li {
+	list-style-type: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	color: black;
+	font-size: 100%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2{
+	font-size: 50px;
+	text-align: center;
+}
+.container{
+	max-width: 1280px;
+	margin: auto;
+}
+/* ================DAAAAAAAAA==================== */
+.btn{
+	border-radius: 8px;
+}
+.cards{
+	padding: 20px;
+}
+.cards__row{
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card{
+	margin: 10px;
+	box-shadow: 0 0 8px black;
+	border-radius: 8px;
+}
+.card.green{
+	background: #16A086;
+}
+.card.yellow{
+	background: #F49C14;
+}
+.card.red{
+	background: #C1392B;
+}
+.card__row{
+	text-align: center;
+	width: 300px;
+	padding: 8px 4px;
+}
+.card__price{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.card__header{
+	padding: 20px 10px;
+	color: white;
+	line-height: 1.5;
+}
+
+.card__body{
+	padding: 20px 10px;
+	line-height: 1.7;
+	background: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.card__value{
+	font-weight: bold;
+}
+
+.card__footer{
+	border-top-style: dashed;
+	border-top-width: 2px;
+	padding: 40px 10px;
+	background: white;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.green .card__footer{
+	border-top-color: #16A086;
+}
+.yellow .card__footer{
+	border-top-color: #F49C14;
+}
+.red .card__footer{
+	border-top-color: #C1392B;
+}
+.card__btn{
+	box-sizing: content-box;
+	padding: 10px 40px;
+	color: white;
+}
+.green .card__btn{
+	background: #16A086;
+}
+.yellow .card__btn{
+	background: #F49C14;
+}
+.red .card__btn{
+	background: #C1392B;
+}

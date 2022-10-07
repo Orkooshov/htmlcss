@@ -1,0 +1,154 @@
+/* ===========ОБНУЛЕНИЕ============ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+ol,
+li {
+	list-style-type: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	min-height: 100%;
+	width: 100%;
+	line-height: 1;
+	color: black;
+	font-size: 100%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: #e5e5e5;
+	background: #56385A;
+}
+
+.bg-circle{
+	background: #624666;
+	border-radius: 50%;
+}
+.bg-circle-1{
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+}
+.bg-circle-2{
+	position: absolute;
+	left: 30%;
+	top: 35%;
+	width: 300px;
+	height: 300px;
+}
+.bg-circle-3{
+	position: absolute;
+	right: 22%;
+	bottom: 0;
+	width: 190px;
+	height: 190px;
+}
+.bg-circle-4{
+	position: absolute;
+	right: 32%;
+	top: 40%;
+	width: 50px;
+	height: 50px;
+}
+
+/* ============AUTH============ */
+.container {
+	max-width: 1024px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+input[type="submit"]{
+	cursor: pointer;
+}
+*{
+	border-radius: 2px;
+}
+.auth{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 16px 0;
+}
+.auth__row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.auth-card{
+	background: #4A304D;
+	padding: 32px;
+	width: 300px;
+	margin-bottom: 20px;
+}
+.auth-card__header{
+	align-self: center;
+	margin-bottom: 20px;
+}
+.auth-card__row{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+.auth-card__icon{
+	font-size: 96px;
+	padding: 12px;
+	background: #433046;
+	border-radius: 50%;
+	user-select: none;
+}
+.auth-card__form{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+.form__label{
+	margin-bottom: 6px;
+}
+.form__input{
+	margin-bottom: 12px;
+}
+.auth-card .form__input{
+	background: #3B263E;
+	padding: 8px;
+	color: white;
+}
+.auth-card .form__submit{
+	margin-top: 16px;
+	background: #FFB37B;
+	color: black;
+	height: 32px;
+}
+
+.auth-hint__link{
+	color: #c08166;
+}
